@@ -18,6 +18,7 @@
           this.handleChange = this.handleChange.bind(this)
         }
         handleChange(event) {
+          // 通过 event.target.value 读取用户输入的值。
           this.setState({ value: event.target.value });
         }
         render() {
